@@ -31,7 +31,7 @@ public class AuthController {
         }
     }
 
-    @CrossOrigin(origins = "http://localhost:3000")
+//    @CrossOrigin(origins = "http://localhost:3000")
     @PostMapping("/register")
     public ResponseEntity<User> register(@RequestBody User user) {
         // Assuming UserService has a method to save user data
